@@ -52,7 +52,7 @@ public class FnSeqOutputService implements IFnSeqService {
 		if (n < 1) { //invalid parameter
 			jsonObject.put("Error", "Please use an integer more than 0 as parameter!");
             logger.exiting(CLASS, method);
-			return Response.status(500).entity(jsonObject.toString()).build();
+			return Response.status(200).entity(jsonObject.toString()).build();
 		}
 		jsonObject.put("Fibonacci",  fnSeqOutput(n));
         logger.exiting(CLASS, method);
