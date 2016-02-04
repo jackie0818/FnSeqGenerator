@@ -18,6 +18,13 @@ Steps to run unit test:
   Results :
   Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
+Steps to run functional test:
+  1. cd FnSeqGenerator
+  2. mvn verify        -- here also run unit test
+  Expected output for funtional test:
+  Results :
+  Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
 Steps to run in jetty:
   1. cd FnSeqGenerator
   2. mvn jetty:run-war
