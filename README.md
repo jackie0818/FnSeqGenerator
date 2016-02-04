@@ -21,4 +21,4 @@ Steps to run unit test:
 Steps to run in jetty:
   1. cd FnSeqGenerator
   2. mvn jetty:run-war
-  After jetty starts up, you may access http://localhost:8080/fn/out/{n} to get required fibonacci sequence, here {n} should be a integer more than 0;
+  After jetty starts up, you may access http://localhost:8080/fn/out/{n} to get required fibonacci sequence via browser, here {n} should be an integer more than 0, meaning the numbers of items in returned fiboncci sequence;
